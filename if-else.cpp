@@ -91,7 +91,7 @@ int main(){
     }
     
 }
-//Take length and breadth of rectangle as input and write a program to find whether the area of rectangle is greater than its perimeter.
+//P7. Take length and breadth of rectangle as input and write a program to find whether the area of rectangle is greater than its perimeter.
 #include<iostream>
 using namespace std;
 
@@ -114,4 +114,16 @@ int main(){
     {
         cout<<"Area and Perimeter both are equal";
     }
-    }
+}
+
+//P8.  Print the maximum and minimum Range of int-------------
+#include<iostream>
+#include <climits>
+using namespace std;
+int main(){
+  int x = INT_MAX;
+  cout<< x << endl;
+  int y = INT_MIN;
+  cout<< y << endl;
+}
+
